@@ -6,5 +6,5 @@ jobs:
   hello:
     runs-on: rocky-latest
   steps:
-   - run: echo "hola"
+    run: echo "hola"
 
