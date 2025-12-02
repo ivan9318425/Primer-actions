@@ -1,7 +1,7 @@
 name: hola # Le ponemos un nombre a mi yaml
 
 #Especificamos que se activara cuando le demos un push o un pull en la rama main
-on: [push pull] 
+on: [push, pull_request] 
 jobs:
   hello:
     runs-on: rocky-latest
