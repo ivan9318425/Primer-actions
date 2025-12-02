@@ -1,0 +1,10 @@
+name: hola
+
+on: [push, pull_request]
+
+jobs:
+  hola:
+    runs-on: rocky-latest
+    steps:
+      - name: hola
+        run : echo "hola mundo"
